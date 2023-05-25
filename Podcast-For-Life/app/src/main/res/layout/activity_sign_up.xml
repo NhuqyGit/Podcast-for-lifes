@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/logoPodcast"
+        android:layout_width="251dp"
+        android:layout_height="236dp"
+        android:background="@drawable/bg_icon_circle"
+        android:backgroundTint="#FFFFFF"
+        android:padding="3dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        app:riv_corner_radius="1000dp" />
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:hint="Email Address" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:hint="Address"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="357dp"
+        android:layout_height="58dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_gradient"
+        android:text="Sign Up with Email"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSwitchToSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Have an Account? Sign In"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin= "10dp"/>
+
+</LinearLayout>
